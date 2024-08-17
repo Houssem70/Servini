@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vert"
+    android:clipToOutline="true"
+    android:padding="10dp"
+    tools:context=".inscription2Suite">
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/EmailInput"
+        android:text="Métier"
+        android:textAppearance="@style/email"
+        android:gravity="top"
+
+        />
+    <EditText
+        android:id="@+id/PaswordInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/password"
+        android:inputType="text"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/metier"
+        android:drawableLeft="@drawable/metier"
+
+        android:ems="10"
+        android:padding="10dp"
+        android:drawablePadding="12dp"
+        />
+
+    <TextView
+        android:id="@+id/numero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/PaswordInput"
+        android:text="Description du métier"
+        android:textAppearance="@style/email"
+        android:gravity="top"
+
+        />
+    <EditText
+        android:id="@+id/NumeroInput"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/numero"
+        android:inputType="phone"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:padding="10dp"
+        />
+    <RelativeLayout
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/NumeroInput"
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:id="@+id/photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Photo"
+            android:textAppearance="@style/email"
+            android:gravity="top"
+
+            />
+        <ImageView
+            android:id="@+id/icone"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@+id/photo"
+            android:src="@drawable/folder"
+            android:layout_centerVertical="true"
+            />
+        <ImageView
+            android:id="@+id/camera"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:src="@drawable/camera"
+            android:layout_toRightOf="@id/icone"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/photoInput"
+        android:layout_width="220dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/image"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:padding="10dp"
+        android:drawablePadding="12dp"
+        />
+
+    <Button
+        android:id="@+id/inscrire"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/photoInput"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_button2"
+        android:text="S'inscrire"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

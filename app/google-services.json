@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "820433103719",
+    "project_id": "servini-f101e",
+    "storage_bucket": "servini-f101e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820433103719:android:9bc9ba032f026b85ce9dc2",
+        "android_client_info": {
+          "package_name": "com.example.servini"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2zyDip7xjTeBXMYEDbYm0712o_UWdF2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

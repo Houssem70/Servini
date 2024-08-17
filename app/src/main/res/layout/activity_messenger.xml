@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/griswhite"
+    tools:context=".messenger">
+
+
+    <LinearLayout
+        android:id="@+id/backa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:background="@color/vert"
+
+            >
+            <ImageView
+                android:id="@+id/retourner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrow2"
+                />
+            <TextView
+                android:id="@+id/nom"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:text="Houssem"
+                android:padding="10dp"
+                android:layout_marginLeft="50dp"
+                android:textSize="25dp"
+
+                android:textColor="@color/white"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/message1"
+            android:layout_width="340dp"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp"
+            >
+            <ImageView
+                android:id="@+id/photo1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle_background"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/custom_input"
+                android:backgroundTint="@color/griswhite">
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:text="Bonjour Mr Houssem  j'ai un problème électrique à la maison. Est-ce que tu pourrais m'aider ?"
+                    android:padding="10dp"
+                    android:background="@drawable/custom_input"
+                    android:backgroundTint="@color/griswhite"
+
+                    android:textSize="19dp"
+
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/message2"
+            android:layout_width="300dp"
+            android:layout_height="180dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/background"
+
+                >
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:text="Bonjour Mr Houssem  j'ai un problème électrique à la maison. Est-ce que tu pourrais m'aider ?"
+                    android:padding="10dp"
+                    android:layout_marginLeft="5dp"
+
+
+                    android:textSize="19dp"
+
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/message3"
+            android:layout_width="340dp"
+            android:layout_height="180dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/photo3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle_background"
+                android:layout_marginTop="110dp"
+                android:layout_marginLeft="10dp"/>
+            <LinearLayout android:layout_width="250dp"
+                android:layout_height="170dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/custom_input"
+                android:backgroundTint="@color/griswhite">
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="230dp"
+                    android:layout_height="90dp"
+                    android:text=" Il y a un interrupteur dans le salon qui ne fonctionne plus du tout"
+                    android:padding="8dp"
+                    android:background="@drawable/custom_input"
+                    android:backgroundTint="@color/griswhite"
+
+                    android:textSize="19dp"
+
+                    />
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/elect"
+                    android:layout_gravity="center_horizontal"
+                    ></ImageView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/backd"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/background2"
+            android:orientation="horizontal" >
+            <ImageView
+                android:id="@+id/emoji"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/emoji"
+                android:layout_marginTop="5dp"
+
+                />
+            <EditText
+                android:id="@+id/contactez_moi"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Ohh!!................"
+                android:textAppearance="@style/email"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="12dp"
+                android:padding="2dp"
+
+                />
+
+            <ImageView
+                android:id="@+id/iconmessage"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:src="@drawable/attach"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                />
+            <ImageView
+                android:id="@+id/iconphone"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:src="@drawable/send"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

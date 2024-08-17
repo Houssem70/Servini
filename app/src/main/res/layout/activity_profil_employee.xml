@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilEmployee"
+    android:background="@color/griswhite"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow"
+        android:id="@+id/arrow"
+        />
+
+    <LinearLayout
+        android:id="@+id/backa"
+        android:layout_width="346dp"
+        android:layout_height="660dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/backb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_background"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:id="@+id/photoInput"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/circle_background"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"/>
+            <LinearLayout
+                android:id="@+id/donnes"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/rounded_background"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/profil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Profil"
+                    android:textAppearance="@style/email"
+                    android:layout_marginLeft="50dp"
+                    />
+                <TextView
+                    android:id="@+id/nom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Houssem"
+                    android:layout_marginStart="20dp"
+                    android:textSize="17dp"
+                    android:layout_marginLeft="50dp"
+                    />
+                <TextView
+                    android:id="@+id/role"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Plomberie"
+                    android:layout_marginStart="30dp"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="50dp"
+                    />
+                <LinearLayout
+                    android:id="@+id/localisation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_background"
+                    android:orientation="horizontal"
+                    >
+                    <ImageView
+                        android:id="@+id/iconlocal"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/location"
+
+                        />
+                    <TextView
+                        android:id="@+id/lieu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tunis, El Marsa"
+                        android:textSize="15dp"
+
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/backc"
+            android:layout_width="280dp"
+            android:layout_height="150dp"
+            android:background="@drawable/rounded_background2"
+            android:layout_marginVertical="15dp"
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            >
+            <TextView
+                android:id="@+id/QUALITE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Qualité de travail"
+                android:textAppearance="@style/email"
+                android:textColor="@color/black"
+                android:gravity="center_horizontal"
+
+
+                />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/backd"
+            android:layout_below="@id/backc"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:background="@drawable/rounded_background2"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/contactez_moi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contactez moi"
+                android:textAppearance="@style/email"
+                android:textColor="@color/black"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="12dp"
+
+                />
+            <ImageView
+                android:id="@+id/iconphone"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/phone2"
+                android:layout_marginTop="21dp"
+                android:layout_below="@id/backc"
+                />
+            <ImageView
+                android:id="@+id/iconmessage"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/message2"
+                android:layout_marginTop="21dp"
+               />
+
+
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="description"
+            android:textAppearance="@style/email"
+            android:textColor="@color/black"
+
+            />
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="280dp"
+            android:layout_height="150dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:background="@drawable/rounded_background2"
+            tools:ignore="TextViewEdits" />
+    </LinearLayout>
+
+
+</LinearLayout>

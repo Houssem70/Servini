@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vert"
+    android:clipToOutline="true"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".historique">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/vert"
+        android:clipToOutline="true"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/icone"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:src="@drawable/arrow2"
+            android:layout_marginTop="10dp"
+
+            android:layout_centerVertical="true"
+            />
+
+
+
+        <TextView
+
+            android:id="@+id/historique"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Historique"
+            android:textSize="40dp"
+
+            android:fontFamily="@font/kadwa"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:textAppearance="@style/email"
+
+            />  </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/vert"
+        android:clipToOutline="true"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/h1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/custom_button4"
+
+            android:textColor="@color/white"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/photoInput"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/circle_background"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="iheb kouki"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:textSize="25dp"
+                android:layout_marginLeft="50dp"
+                />
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12:00"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:textSize="25dp"
+                android:layout_marginLeft="50dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/h2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/custom_button4"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white">
+            <ImageView
+                android:id="@+id/photoInput2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/circle_background"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:id="@+id/name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ahmed jomaa"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:textSize="25dp"
+                android:layout_marginLeft="50dp"
+                />
+            <TextView
+                android:id="@+id/time2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12:00"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:textSize="25dp"
+                android:layout_marginLeft="50dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/h3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/custom_button4"
+            android:text="Contactez nous"
+            android:textSize="20dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/photoInput3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/circle_background"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:id="@+id/name3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mohamed"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:textSize="25dp"
+                android:layout_marginLeft="50dp"
+                />
+            <TextView
+                android:id="@+id/time3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12:00"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:textSize="25dp"
+                android:layout_marginLeft="50dp"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/h4"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/custom_button4"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/photoInput4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/circle_background"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:id="@+id/name4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="iheb kouki"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:textSize="25dp"
+                android:layout_marginLeft="50dp"
+                />
+            <TextView
+                android:id="@+id/time4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12:00"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:textSize="25dp"
+                android:layout_marginLeft="50dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/h5"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/custom_button4"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white">
+            <ImageView
+                android:id="@+id/photoInput5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/circle_background"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:id="@+id/name5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="iheb kouki"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:textSize="25dp"
+                android:layout_marginLeft="50dp"
+                />
+            <TextView
+                android:id="@+id/time5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12:00"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:textSize="25dp"
+                android:layout_marginLeft="50dp"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/h6"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/custom_button4"
+            android:text="Contactez nous"
+            android:textSize="20dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/photoInput6"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/circle_background"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:id="@+id/name6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="iheb kouki"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:textSize="25dp"
+                android:layout_marginLeft="50dp"
+                />
+            <TextView
+                android:id="@+id/time6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12:00"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:textSize="25dp"
+                android:layout_marginLeft="50dp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contactez_nous_fragment">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vert"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/Contactez_nous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:text="Contactez nous"
+        android:textAppearance="@style/login"
+        android:gravity="center_horizontal|top"
+        />
+    <TextView
+        android:id="@+id/nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Contactez_nous"
+        android:text="Sujet de votre message"
+        android:textAppearance="@style/email"
+        android:gravity="top"
+        />
+    <EditText
+        android:id="@+id/nomInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/nom"
+        android:inputType="text"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="12dp"
+        android:padding="10dp"
+        android:ems="10"/>
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/nomInput"
+        android:text="Votre message"
+        android:textAppearance="@style/email"
+        android:gravity="top"
+        />
+    <EditText
+        android:id="@+id/messageInput"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/message"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:padding="10dp"
+        android:background="@drawable/custom_input"
+        android:gravity="top"/>
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/messageInput"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custom_button2"
+        android:text="Envoyer"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
+
+</FrameLayout>

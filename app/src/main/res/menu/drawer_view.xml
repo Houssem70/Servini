@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:focusable="true"
+            android:title="Accueil"/>
+
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/user"
+            android:focusable="true"
+            android:title="Profil"/>
+
+        <item
+            android:id="@+id/Contactez_nous"
+            android:icon="@drawable/message"
+            android:focusable="true"
+            android:title="Contactez_nous"/>
+
+        <item
+            android:id="@+id/historique"
+            android:focusable="true"
+            android:icon="@drawable/nav_historique"
+            android:title="Historique"/>
+    </group>
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/Déconnectez"
+                android:focusable="true"
+                android:icon="@drawable/nav_logout"
+                android:title="Déconnectez"/>
+        </menu>
+
+    </item>
+
+</menu>

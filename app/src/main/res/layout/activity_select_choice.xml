@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".selectChoice"
+    android:background="@color/gris"
+    >
+
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_centerVertical="true"
+       >
+
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentTop="true"
+           android:id="@+id/slogan"
+
+           >
+       <ImageView
+           android:id="@+id/logo"
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:layout_alignParentStart="true"
+           android:layout_alignParentLeft="true"
+           android:src="@drawable/logo1"
+           android:layout_centerVertical="true"/>
+    <TextView
+        android:id="@+id/servini"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Servini"
+        android:textColor="@color/vert"
+        android:textSize="50sp"
+        android:textStyle="bold|italic"
+        android:fontFamily="@font/kadwa"
+        android:layout_toRightOf="@+id/logo"
+        android:layout_centerVertical="true"
+         />
+   </RelativeLayout>
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+
+       <Button
+           android:id="@+id/utilisateur"
+           android:layout_width="200dp"
+           android:layout_height="50dp"
+           android:layout_below="@id/slogan"
+           android:text="Utilisateur"
+           android:textSize="20sp"
+           android:layout_marginTop="100dp"
+           android:background="@drawable/custom_button"
+           android:layout_centerHorizontal="true"
+           android:gravity="center_horizontal|center"
+           android:theme="@style/Button.beige"
+           />
+
+       <Button
+           android:id="@+id/employe"
+           android:layout_width="200dp"
+           android:layout_height="50dp"
+           android:text="Employé"
+           android:textSize="20sp"
+           android:background="@drawable/custom_button"
+           android:layout_centerHorizontal="true"
+           android:gravity="center_horizontal|center"
+           android:theme="@style/Button.beige"
+           android:layout_below="@+id/utilisateur"
+           android:layout_marginTop="40dp"
+           />
+   </RelativeLayout>
+
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+
+
+</RelativeLayout>
